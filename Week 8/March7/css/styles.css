@@ -1,0 +1,74 @@
+@charset utf-8;
+/* CSS Document */
+
+#container {
+	width:90%;
+	margin:0 auto 0 auto;
+	background-color:#FFFFFF;
+	color:#333333;
+	border:1px solid gray;
+	line-height:130%;
+	
+}
+#top {
+	padding:.5em .5em .5em .5em;
+	background-color:#DDDDDD;
+	border-bottom:1px solid gray;
+	display:table-cell;
+	float:top;
+}
+#top h1 {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+#top p {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+main {
+	display:table;
+}
+#leftnav {
+	float:none;
+	width:10em;
+	margin:0 0 0 0;
+	padding:1em 1em 1em 1em;
+	display:table-cell;
+	vertical-align:top;
+}
+#leftnav ul {
+	list-style:none;
+	line-height:2.75em;
+	font-size:125%;
+	font-family:sans-serif;
+}
+#leftnav ul li a {
+	text-decoration:none;
+	color:#333333;
+	background-color:#DDDDDD;
+	padding:.5em .5em .5em .5em;
+	border-radius:.8em .8em .8em .8em;
+}
+#leftnav ul li a:hover {
+	text-decoration:none;
+	color:#FFFFFF;
+	background-color:#555555;
+	padding:.5em .5em .5em .5em;
+	border-radius:.8em .8em .8em .8em;
+}
+#content {
+	margin-left:12.5em;
+	border-left:1px solid gray;
+	padding:1em 1em 1em 1em;
+	display:table-cell;
+	float:none;
+	vertical-align:top;
+}
+#footer {
+	clear:both; /*cleared any float we've got*/
+	margin: 0 0 0 0;
+	padding:.5em .5em .5em .5em;
+	color:#333333;
+	background-color:#DDDDDD;
+	border:1px solid gray;
+}

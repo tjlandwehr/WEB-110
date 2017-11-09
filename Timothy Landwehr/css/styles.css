@@ -1,0 +1,19 @@
+@charset utf-8;
+/* CSS Document */
+
+#container {
+	width:85%;
+	margin:0 auto 0 auto;
+	/*border:2px black solid;*/
+}
+header {
+	width:100%;
+	float:left;
+	background-color:#709abb;
+	text-align:center;
+	font-family:sans-serif;
+}
+nav {
+	width:100%;
+	float:left;
+}

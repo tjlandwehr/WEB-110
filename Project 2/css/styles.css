@@ -1,0 +1,135 @@
+@charset utf-8;
+/* CSS Document */
+
+* {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+body {
+    font-family: "Trebuchet MS";
+}
+.wrapper {
+	width: 724px;
+	margin: 0 auto 0 auto;
+	border-radius: 10px;
+    border: 1px solid #DDDDDD;
+	box-shadow: 5px 5px 5px #DDDDDD;
+    overflow: hidden;
+}
+header {
+	width: 644px;
+	margin: 0 auto 0 auto;
+    padding-top: 10px;
+}
+header > p {
+    background-color: #F6F9FB;
+    margin: 0 auto 0 auto;
+    padding: 4px 0px 4px 0px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #E1E1E1;
+}
+header > p > a {
+    text-decoration: none;
+    color: #2872AE;
+    margin-left: 10px;
+}
+img {
+	width: 100%;
+}
+main {
+	width: 100%;
+	float: none;
+	display: table;
+}
+#col1 {
+	width: 62%;
+	padding: 2% 1% 2% 7%;
+	display: table-cell;
+	vertical-align: top;
+    font-size: 0.95em;
+    text-align: justify;
+}
+#col1 li {
+    margin-left: 25px;
+    font-size: small;
+    line-height: 18px;
+}
+#col2 {
+	width: 33%;
+	padding: 2% 2% 2% 2%;
+	display: table-cell;
+	vertical-align: top;
+    color: #2872AE;
+}
+#col2 li {
+    line-height: 22px;
+    margin-left: 25px;
+        font-size: small;
+}
+#col2 li a {
+    text-decoration: none;
+    color: #2872AE;
+}
+.active {
+    color: #FF6600;
+}
+footer {
+    text-align: center;
+    margin: 5px auto 5px auto;
+    font-size: 0.84em;
+    color: #666666;
+}
+footer > a {
+    text-decoration: none;
+    color: #2872AE;
+}
+h2 {
+    color: #2872AE;
+    font-size: 1.1em;
+}
+h3 {
+    font-size: 1em;
+}
+p {
+    font-size: .83em;
+    line-height: 18px;
+}
+main a {
+    text-decoration: none;
+    color: #2872AE;
+}
+li {
+    list-style-type: square
+}
+blockquote {
+    line-height: 18px;
+    padding: 0 30px;
+}
+blockquote p {
+    margin: 15px;
+}
+.double_quote_left {
+	padding-left: 19px;
+    background-image: url(../images/lquote.gif);
+    background-repeat: no-repeat;
+}
+.double_quote_right {
+    float: right;
+    margin-right: -50px;
+    padding: 10px 19px;
+    background-image: url(../images/rquote.gif);
+    background-repeat: no-repeat;
+}
+.clearboth {
+    clear: both;
+}
+figure {
+    float: left;
+    width: 175px;
+    padding: 15px 10px 5px 10px;
+}
+figcaption {
+    text-align: center;
+    font-weight: bold
+}

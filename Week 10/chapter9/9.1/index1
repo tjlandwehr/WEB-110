@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Practice with Tables</title>
+<meta charset="utf-8">
+</head>
+<body>
+<table border="1">
+<caption>School History Table</caption>
+      <tr>
+        <th>School Attended</th>
+        <th>Years</th>
+        <th>Degree Awarded</th>
+    </tr>
+    <tr>
+        <td>Olathe East High School</td>
+        <td>2004&mdash;2007</td>
+        <td>High School Diploma</td>
+    </tr>
+    <tr>
+        <td>Johnson County Community College</td>
+        <td>2008&mdash;2010</td>
+        <td>Associate of Arts Degree</td>
+    </tr>
+    <tr>
+        <td>Iowa State University</td>
+        <td>2010&mdash;2012</td>
+        <td>Bachelor of Science Degree</td>
+    </tr>
+    <tr>
+        <td>Johnson County Community College</td>
+        <td>2016&mdash;Present</td>
+        <td>Web Technologies Certificate</td>
+    </tr>
+</table>
+</body>
+</html>

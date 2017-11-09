@@ -1,0 +1,112 @@
+@charset utf-8;
+/* CSS Document */
+
+/* ----- Base Styles ----- */
+
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	color: #333333;
+	background-color: #EEEEEE;
+	font-size: 1em/1.2;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+a:link {
+    color: royalblue;
+}
+a:visited {
+    color: purple;
+}
+a:focus {
+    color: black;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: red;
+}
+
+/* ----- Layout Styles ----- */
+
+.container {
+	max-width: 70em;
+	margin: 0 auto 0 auto;
+}
+.header {
+	color: #FFFFFF;
+	background-color: #555555;
+	padding: 1em 1.25em 1em 1.25em;
+}
+.header-heading {
+    margin: 0 0 0 0;
+}
+.nav-bar {
+    background-color: #000000;
+    padding: 0 0 0 0;
+}
+.content {
+    overflow: hidden;
+    padding: 1em 1.25em 1em 1.25em;
+    background-color: #FFFFFF;
+}
+.main, .aside {
+    margin-bottom: 1em;
+}
+
+/* ----- Nav Styles ----- */
+
+.nav {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    list-style: none;
+}
+.nav li {
+    display: inline;
+    margin: 0 0 0 0;
+}
+.nav a {
+    display: block;
+    padding: .7em 1.25em .7em 1.25em;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+}
+.nav a:link {
+    color: white;
+}
+.nav a:visited {
+    color: white;
+}
+.nav a:focus {
+    color: black;
+    background-color: white;
+}
+.nav a:hover {
+    color: white;
+    background-color: green;
+}
+.nav a:active {
+    color: white;
+    background-color: red;
+}
+
+/* ----- Single Styles ----- */
+
+.img-responsive {
+    max-width: 100%;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}

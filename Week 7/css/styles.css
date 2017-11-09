@@ -1,0 +1,119 @@
+@charset utf-8;
+/* CSS Document */
+
+/*http://www.w3schools.com/css/css3_gradients.asp */
+
+#rcorners1 {
+	border-radius: 25px;
+	background: #8AC007;
+	padding: 20px 20px 20px 20px;
+	width: 200px;
+	height: 150px;
+}
+#rcorners2 {
+	border-radius: 25px;
+	border: 2px solid #8AC007;
+	padding: 20px 20px 20px 20px;
+	width: 200px;
+	height: 150px;
+}
+#rcorners3{
+	border-radius: 25px;
+	background-image: url(../images/paper.gif);
+	background-position: left top;
+	background-repeat: repeat;
+	padding: 20px 20px 20px 20px;
+	width: 200px;
+	height: 150px;
+}
+#rcorners4{
+	border-radius: 25px;
+	/*background: -o-linear-gradient(blue, yellow, red, green);
+	background: -moz-linear-gradient(blue, yellow, red, green);
+	background: -webkit-linear-gradient(blue, yellow, red, green);
+	background: -ms-linear-gradient(blue, yellow, red, green);*/
+	background: blue;
+	background: linear-gradient(blue, yellow, red, green, #FFFFFF, #CCCCCC);
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}
+#rcorners5{
+	border-radius: 25px;
+	background: -o-linear-gradient(to right, blue, yellow, red, green);
+	background: -moz-linear-gradient(to right, blue, yellow, red, green);
+	background: -webkit-linear-gradient(to right, blue, yellow, red, green);
+	background: -ms-linear-gradient(to right, blue, yellow, red, green);
+	background: linear-gradient(to right, blue, yellow, red, green);
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}
+#rcorners6{
+	border-radius: 25px;
+	background: -o-linear-gradient(to bottom right, blue, yellow, red, green);
+	background: -moz-linear-gradient(to bottom right, blue, yellow, red, green);
+	background: -webkit-linear-gradient(to bottom right, blue, yellow, red, green);
+	background: -ms-linear-gradient(to bottom right, blue, yellow, red, green);
+	background: linear-gradient(to bottom right, blue, yellow, red, green);
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}
+#rcorners7{
+	border-radius: 25px;
+	background: -o-linear-gradient(45deg, blue, yellow, red, green);
+	background: -moz-linear-gradient(45deg, blue, yellow, red, green);
+	background: -webkit-linear-gradient(45deg, blue, yellow, red, green);
+	background: -ms-linear-gradient(45deg, blue, yellow, red, green);
+	background: linear-gradient(45deg, blue, yellow, red, green);
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}
+#rcorners8{
+	border-radius: 25px;
+	background: -o-linear-gradient(right, rgba(255,0,0,0),rgba(255,0,0,1));
+	background: -moz-linear-gradient(right, rgba(255,0,0,0),rgba(255,0,0,1));
+	background: -webkit-linear-gradient(left, rgba(255,0,0,0),rgba(255,0,0,1));
+	background: -ms-linear-gradient(right, rgba(255,0,0,0),rgba(255,0,0,1));
+	background: linear-gradient(to bottom right, rgba(255,0,0,0),rgba(255,0,0,1));
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}
+#rcorners9{
+	border-radius: 25px;
+	background: -o-repeating-linear-gradient(red, yellow 10%, green 20%);
+	background: -moz-repeating-linear-gradient(red, yellow 10%, green 20%);
+	background: -webkit-repeating-linear-gradient(red, yellow 10%, green 20%);
+	background: -ms-repeating-linear-gradient(red, yellow 10%, green 20%);
+	background: repeating-linear-gradient(red, yellow 20%);
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}
+.div1{
+	width: 200px;
+	height: 100px;
+	border: 1px solid green;
+}
+.div2{
+	width: 200px;
+	height: 100px;
+	padding: 50px 50px 50px 50px;
+	border: 1px solid pink;
+}
+.div3{
+	width: 300px;
+	height: 100px;
+	border: 1px solid blue;
+}
+.div4{
+	width: 300px;
+	height: 100px;
+	padding: 50px 50px 50px 50px;
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+/*Refer to CSS-Tricks - Box Sizing*/
